@@ -1,0 +1,42 @@
+/* mobie device */
+
+@media screen and (max-width:425px) {
+    /* header */
+     .header{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+     }
+     .nav-link{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        
+     }
+     .nav-link .link{
+        margin-right: 0;
+     }
+}
+
+/* tablet device */
+@media screen and (min-width:425px) and (max-width:768px) {
+    /* header */
+    .header{
+       flex-direction: column;
+       width: 100%;
+       text-align: center;
+    }
+    .nav-link{
+       margin-top: 30px;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       gap: 20px;
+       
+    }
+    .nav-link .link{
+       margin-right: 0;
+    }
+}

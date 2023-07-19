@@ -1,0 +1,79 @@
+/* fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+  /* default style */
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+
+
+
+
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width: 5rem;
+    height: 2.7rem;
+    margin-right: 0.7rem;
+}
+.nav-logo h3{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.nav-logo h3 span{
+    color: #FF42A5;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: #3C354F;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav-link .link{
+    margin-right: 2.7rem;
+ }
+.nav-social-link {
+    padding: 10px 15px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 3px;
+   
+}
+.nav-social-link a{
+    margin-right: 1.5rem;
+}
+.nav-social-link a:last-child{
+    margin-right:0;
+}
+
+.fa-youtube{
+    color: #F00044;
+}
+.fa-tiktok{
+    color: #000;
+}
