@@ -87,7 +87,18 @@
    grid-template-columns: repeat(2, 1fr);
    gap: 20px;
   }
+  .hero{
+   display: none;
+  }
     /* team section end */
+    /* footer */
+    .footer{
+      padding: 60px 20px;
+    }
+    .footer-link{
+      flex-wrap: wrap;
+
+    }
 }
 
 
@@ -182,4 +193,16 @@
       gap: 20px;
      }
   /* team section end */
+  /* hero */
+  .hero{
+   display: none;
+  }
+  /* footer */
+  .footer{
+   padding: 60px 20px;
+ }
+ .footer-link{
+   flex-wrap: wrap;
+
+ }
 }
