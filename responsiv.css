@@ -35,7 +35,10 @@
      /* funny card section */
      .funny{
         padding: 1rem;
+      margin-bottom: 2rem;
+
      }
+
      .funni-card{
         margin-top: 2.8rem;
         display: grid;
@@ -50,10 +53,50 @@
         font-size: 1rem;
         
     }
+    /* play game section start */
+    .play-game{
+       flex-direction: column;
+       padding: 2rem;
+    }
+    .play-game-img{
+      width: 100%;
+      
+    }
+    .Rectangle{
+       width: 90%;
+      
+    }
+    .play-game-content{
+      width: 100%;
+     padding: 0;
+     text-align: center;
+    }
+    .play-game-content h2{
+      font-size: 2rem;
+      line-height: 2.2rem;
+      margin-bottom: 20px;
+  }
+  .play-game-sub-img img{
+   width:25%;
+   margin-top:-80px ;
+   margin-left:-80px ;
+  }
+  /* team section start */
+  .team{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+  }
+    /* team section end */
 }
 
-/* tablet device */
-@media screen and (min-width:425px) and (max-width:768px) {
+
+
+
+
+
+/* tablet device ===============================================================*/
+@media screen and (min-width:426px) and (max-width:768px) {
     /* header */
     .header{
        flex-direction: column;
@@ -104,6 +147,39 @@
     }
     .funny p{
         font-size: 1rem;
-        
     }
+    /* play game section start */
+    .play-game{
+      flex-direction: column;
+      padding: 2rem;
+   }
+   .play-game-img{
+     width: 100%;
+   }
+   .Rectangle{
+      width: 90%;
+     
+   }
+   .play-game-content{
+     width: 100%;
+    padding: 0;
+    text-align: center;
+   }
+   .play-game-content h2{
+    margin-top: 3rem;
+     line-height: 3rem;
+     margin-bottom: 20px;
+ }
+ .play-game-sub-img img{
+  width:20%;
+  margin-top:-120px ;
+  margin-left:-140px ;
+ }
+ /* team section start */
+     .team{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+     }
+  /* team section end */
 }

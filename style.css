@@ -145,7 +145,7 @@ img{
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .funny h2{
     text-align: center;
@@ -224,54 +224,92 @@ text-align: center;
 /* funny section end here */
 
 
+/* play game section start */
+.play-game{
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.play-game-img{
+    width: 50%;
+}
+.play-game-content{
+    width: 50%;
+   padding-left: 150px;
+}
+.play-game-img{
+    /* text-align: center;
+    text-align: end; */
+    position: relative;
+}
+.play-game-sub-img{
+    width: 100%;
+    text-align: end;
+}
+.play-game-sub-img img{
+ width:30%;
+ position: absolute;
+ margin-top:-130px ;
+ margin-left:-100px ;
+}
+.play-game-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.7rem; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
 
+.play-game-content p{
+     color: #534C64;
+     font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
 
+/* play game section end*/
+/* careear section start */
+.careear{
+    margin-top: 130px;
+    width: 100%;
+    height: 300px;
+    background-color: #F948B2;
+}
+/* careear section end */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.card {
-    background: #4EC5F7;
-    width: 300px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
+/* team section start */
+.team{
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 60px auto 60px ;
+    gap:  20px 40px;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    border: 1px solid white;
+   
+}
+.team-container:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    width: fit-content;
+    border-radius: 30px;
+}
+  .team-container img{
+     width: 40px;
+     margin-right: 1rem;
   }
-  
-  .card:hover {
-    background: linear-gradient(to bottom, #f8cfd6, #e2a8b3);
+.team-container p{
+color: #0B0223;
+font-size: 18px;
+font-weight: 600;
   }
-  
-  .card h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    font-size: 14px;
-    color: #666666;
-  }
-  */
-  
-  
-  
-  
-  
   
