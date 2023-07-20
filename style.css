@@ -136,10 +136,61 @@ img{
     padding-left: 20px;
 }
 .banner-img{
-
+ background: url();
 }
 /* banner style end here */
-
+/* hero ============================*/
+.hero{
+    /* margin-top: 0px; */
+    padding: 30px 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.hero-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.hero-img{
+ width: 50%;
+}
+.hero-content{
+ width: 50%;
+ margin-left: 120px;
+ text-align: right;
+}
+.hero-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-content p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px
+}
+.hero-content h4{
+    color: #534C64;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.hero-btn{
+    margin-top: 1.9rem;
+    margin-bottom: 1rem;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 2.7rem;
+    background:#FF42A5 ;
+    border: 0;
+    border-radius: 3.2rem;
+}
 /* funny card section start here */
 .funny{
     max-width: 1170px;
@@ -271,17 +322,74 @@ text-align: center;
     line-height: 2rem;
 }
 
-/* play game section end*/
-/* careear section start */
+/* play game section end====================*/
+/* careear section start ============================*/
 .careear{
-    margin-top: 130px;
-    width: 100%;
-    height: 300px;
-    background-color: #F948B2;
+  margin-top: 120px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
-/* careear section end */
+.careear-container{
+    display: flex;
+    /* max-width: 1170px;
+    margin: 0 auto ; */
+}
+.careear-text{
+    margin-left: 70px;
+    width: 50%;
+    margin-right: 1rem;
+    padding: 40px 0 30px 0;
+}
+.careear-text h3{
+color: #FFF;
+font-family: Work ans;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+}
+.careeear-blog{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rempx;
+    margin: 1.2rem 0 1.5rem;
+}
+.careear-text-content{
+    display: flex;
+}
+.careear-left-content p{
+color: #FFF;
+font-size: 1.4rem;
+font-weight: 600;
+line-height: 2rem; 
+}
+.careear-right-content p{
+color: #FFF;
+font-size: 1.4rem;
+font-weight: 600;
+line-height: 2rem; 
+text-align: end;
+}
 
-/* team section start */
+.careear-img{
+    width: 50%;
+}
+.careear-img img{
+    width: 100%;
+    height: 100%;
+}
+.careear-btn{
+    color: #F948B2;
+    background: #fff;
+    padding: 21px 40px;
+    font-size: 1.4rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+/* careear section end ====================*/
+
+/* team section start ========================*/
 .team{
     justify-content:center;
     display: flex;
@@ -313,14 +421,6 @@ font-size: 18px;
 font-weight: 600;
   }
 
-/* her0 */
-.hero{
-    margin-top: 130px;
-    width: 100%;
-    height: 200px;
-    border: 1px solid #F948B2;
-    background-color: #F948B2;
-}
   /* footer section =======================*/
 
 .footer{

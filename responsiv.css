@@ -1,104 +1,176 @@
 /* mobie device */
 @media screen and (max-width:425px) {
-    /* header */
-     .header{
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-     }
-     .nav-link{
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-        
-     }
-     .nav-link .link{
-        margin-right: 0;
-     }
 
-     /* banner */
-     .banner-container{
-        flex-direction: column;
-     }
-     .banner-text{
-        width: 100%;
-        text-align: center;
-        padding: 0.8rem;
-     }
-     .banner-img{
-        width: 100%;
-        padding: 0.8rem;
-        padding-bottom: 0;
-     }
-     /* funny card section */
-     .funny{
-        padding: 1rem;
+   /* header */
+   .header {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+   }
+
+   .nav-link {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+
+   }
+
+   .nav-link .link {
+      margin-right: 0;
+   }
+
+   /* banner========================== */
+   .banner-container {
+      flex-direction: column;
+   }
+
+   .banner-text {
+      width: 100%;
+      text-align: center;
+      padding: 0.8rem;
+   }
+   .banner-text h1{
+      font-size: 4rem;
+  }
+   .banner-text p{
+      margin-bottom:0.5rem;
+      text-align: left;
+      margin-left: 70px;
+  }
+   .banner-img {
+      width: 100%;
+      padding: 1.8rem;
+      padding-bottom: 0;
+   }
+
+   /* hero =====================*/
+   .hero {
+      
+      padding-top: 0px ;
+      padding-bottom: 0;
+   }
+
+   .hero-container {
+      display: flex;
+      flex-direction: column;
+      flex-direction: column-reverse;
+      padding: 1rem;
+   }
+
+   .hero-img {
+      width: 100%;
+   }
+   .hero-content {
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+   }
+
+   /* funny card section =======================*/
+   .funny {
+      padding: 0 1rem;
       margin-bottom: 2rem;
 
-     }
+   }
 
-     .funni-card{
-        margin-top: 2.8rem;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
-    }
-    .funny h2{
-        font-size:1.6rem;
-        margin-bottom: 20px;
-    }
-    .funny p{
-        font-size: 1rem;
-        
-    }
-    /* play game section start */
-    .play-game{
-       flex-direction: column;
-       padding: 2rem;
-    }
-    .play-game-img{
+   .funni-card {
+      padding: 0 1rem;
+      margin-top: 2.8rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+   }
+
+   .funny h2 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+   }
+
+   .funny p {
+      font-size: 1rem;
+      margin-top: 5px;
+   }
+
+   /* play game section start =======================*/
+   .play-game {
+      flex-direction: column;
+      padding: 2rem;
+   }
+
+   .play-game-img {
       width: 100%;
-      
-    }
-    .Rectangle{
-       width: 90%;
-      
-    }
-    .play-game-content{
+
+   }
+
+   .Rectangle {
+      width: 90%;
+
+   }
+
+   .play-game-content {
       width: 100%;
-     padding: 0;
-     text-align: center;
-    }
-    .play-game-content h2{
+      padding: 0;
+      text-align: center;
+   }
+
+   .play-game-content h2 {
       font-size: 2rem;
       line-height: 2.2rem;
       margin-bottom: 20px;
-  }
-  .play-game-sub-img img{
-   width:25%;
-   margin-top:-80px ;
-   margin-left:-80px ;
-  }
-  /* team section start */
-  .team{
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 20px;
-  }
-  .hero{
-   display: none;
-  }
-    /* team section end */
-    /* footer */
-    .footer{
-      padding: 60px 20px;
+   }
+
+   .play-game-sub-img img {
+      width: 25%;
+      margin-top: -80px;
+      margin-left: -80px;
+   }
+   /* careear section=========================== */
+   .careear-container{
+      flex-direction: column;
+      padding: 0 30px;
     }
-    .footer-link{
+    .careear-btn{
+      padding: 15px 30px;
+      font-size: 1.2rem;
+  }
+   .careear-text{
+      width: 100%;
+      margin-left: 0;
+    }
+    .careear-text-content{
+      flex-direction: column;
+   }
+    .careear-text-content p{
+    font-size: 1rem;
+   }
+   .careear-right-content p{
+      text-align: start;
+      }
+   .careear-img{
+      width: 100%;
+    }
+   /* team section start================= */
+   .team {
+      margin-top: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 1rem;
+   }
+
+
+   /* footer =========================*/
+   .footer {
+      padding: 60px 20px;
+   }
+
+   .footer-link {
       flex-wrap: wrap;
 
-    }
+   }
 }
 
 
@@ -108,101 +180,155 @@
 
 /* tablet device ===============================================================*/
 @media screen and (min-width:426px) and (max-width:768px) {
-    /* header */
-    .header{
-       flex-direction: column;
-       width: 100%;
-       text-align: center;
-    }
-    .nav-link{
-       margin-top: 30px;
-       display: flex;
-       flex-direction: column;
-       text-align: center;
-       gap: 20px;
-    }
-    .nav-link .link{
-       margin-right: 0;
-    }
-         /* banner */
 
-         .banner-container{
-            flex-direction: column;
-            
-         }
-         .banner-text{
-            width: 100%;
-            text-align: center;
-            padding: 0.8rem;
-         }
-         .banner-img{
-            width: 100%;
-            padding: 1.8rem;
-            padding-bottom: 0;
-         }
+   /* header */
+   .header {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+   }
 
+   .nav-link {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+   }
+   .nav-link .link {
+      margin-right: 0;
+   }
+   /* banner ==========================*/
+   .banner-container {
+      flex-direction: column;
+   }
+   .banner-text {
+      width: 100%;
+      text-align: left;
+      padding: 1.8rem;
+      margin-left: 5rem;
+   }
+   .banner-img {
+      width: 100%;
+      padding:0 2.8rem;
+      padding-bottom: 0;
+   }
+     /* hero start ========================*/
+     .hero {
+      padding-top: 10px;
+   }
+   .hero-container {
+      display: flex;
+      flex-direction: column;
+      padding: 1.7rem;
+   }
 
-           /* funny card section */
-     .funny{
-        padding: 1.7rem;
-     }
-     .funni-card{
-        margin-top: 2.7rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    .funny h2{
-        font-size:1.6rem;
-        margin-bottom: 1.3rem;
-    }
-    .funny p{
-        font-size: 1rem;
-    }
-    /* play game section start */
-    .play-game{
+   .hero-img {
+      width: 100%;
+   }
+
+   .hero-content {
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+   }
+   /* funny card section ===================*/
+   .funny {
+      padding: 1.7rem;
+   }
+
+   .funni-card {
+      margin-top: 2.7rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+   }
+
+   .funny h2 {
+      font-size: 1.6rem;
+      margin-bottom: 1.3rem;
+   }
+
+   .funny p {
+      font-size: 1rem;
+   }
+
+   /* play game section start */
+   .play-game {
       flex-direction: column;
       padding: 2rem;
    }
-   .play-game-img{
-     width: 100%;
+   .play-game-img {
+      width: 100%;
    }
-   .Rectangle{
+   .Rectangle {
       width: 90%;
-     
    }
-   .play-game-content{
-     width: 100%;
-    padding: 0;
-    text-align: center;
+   .play-game-content {
+      width: 100%;
+      padding: 0;
+      text-align: center;
    }
-   .play-game-content h2{
-    margin-top: 3rem;
-     line-height: 3rem;
-     margin-bottom: 20px;
- }
- .play-game-sub-img img{
-  width:20%;
-  margin-top:-120px ;
-  margin-left:-140px ;
- }
- /* team section start */
-     .team{
+   .play-game-content h2 {
+      margin-top: 3rem;
+      line-height: 3rem;
+      margin-bottom: 20px;
+   }
+   .play-game-sub-img img {
+      width: 20%;
+      margin-top: -120px;
+      margin-left: -140px;
+   }
+      /* careear section=========================== */
+      .careear-container{
+         flex-direction: column;
+         padding: 0 30px;
+       }
+       .careear-btn{
+         padding: 18px 35px;
+         font-size: 1.3rem;
+     }
+      .careear-text{
+         width: 100%;
+         margin-left: 0;
+       }
+       /* .careear-text-content{
+         flex-direction: column;
+      }
+       .careear-text-content p{
+       font-size: 1rem;
+      }
+      .careear-right-content p{
+         text-align: start;
+         } */
+      .careear-img{
+         width: 100%;
+       }
+      /* team section start================= */
+      .team {
+         margin-top: 0;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 10px;
+         padding: 1rem;
+      }
+   /* team section start */
+   .team {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
-     }
-  /* team section end */
-  /* hero */
-  .hero{
-   display: none;
-  }
-  /* footer */
-  .footer{
-   padding: 60px 20px;
- }
- .footer-link{
-   flex-wrap: wrap;
+      margin-top: 0;
+   }
+   /* team section end */
 
- }
+   /* footer ======================================*/
+   .footer {
+      padding: 60px 20px;
+   }
+
+   .footer-link {
+      flex-wrap: wrap;
+
+   }
+
 }
